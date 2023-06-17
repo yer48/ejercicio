@@ -1,0 +1,52 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color:rgb(255, 255, 255) ;
+    margin: 0;
+    padding: 0;
+}
+
+.item1{
+    grid-area: inicio;
+}
+
+.item2{
+    grid-area: quienes somos;
+}
+
+.item3{
+    grid-area: galeria;
+}
+
+.item4{
+    grid-area: contacto;
+}
+
+.item5{
+    grid-area: menu;
+}
+
+.item6{
+    grid-area: aside;
+}
+
+.item7{
+    grid-area: section article;
+}
+
+.item8{
+    grid-area: video;
+}
+
+.item9{
+    grid-area: footer;
+}
+
+.padre{
+    display: grid;
+    grid-template-rows: 200px 370px 370px 150px;
+    grid-template-areas: 
+    "inicio inicio quienes somos quienes somos galeria contacto";
+}
+
+
